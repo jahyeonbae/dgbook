@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" version="3.0" xml:lang="ko" unique-identifier="pub-id" prefix="rendition: http://www.idpf.org/vocab/rendition/#">
+<metadata xmlns:opf="http://www.idpf.org/2007/opf" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/">
+    <dc:title id="title">lesson05_변환.pdf</dc:title>
+    <dc:creator id="creator">Unset</dc:creator>
+    <dc:language>ko</dc:language>
+    <dc:identifier id="pub-id">Unset</dc:identifier>
+    <dc:date>2017-09-25T07:16:16Z</dc:date>
+    <dc:publisher>Unset</dc:publisher>
+    <dc:rights>Unset</dc:rights>
+	<meta property="dcterms:modified">2017-09-25T07:16:16Z</meta>
+	<meta property="rendition:layout">pre-paginated</meta>
+	<meta property="rendition:orientation">landscape</meta>
+	<meta property="rendition:spread">auto</meta>
+</metadata>
+<manifest>
+	<item id="toc" properties="nav" href="TOC.xhtml" media-type="application/xhtml+xml"/>
+	<item id="js1" href="js/blux-apx-1.0.js" media-type="text/javascript"/>
+<item id="js2" href="js/aspen-apx-1.0.js" media-type="text/javascript"/>
+<item id="js3" href="js/lib.js" media-type="text/javascript"/>
+<item id="js4" href="wgts/wgts.js" media-type="text/javascript"/>
+<item id="js5" href="js/krs.boot.js" media-type="text/javascript"/>
+<item id="jsD0" href="data_0.js" media-type="text/javascript"/>
+<item id="jsD1" href="data_1.js" media-type="text/javascript"/>
+<item id="jsD2" href="data_2.js" media-type="text/javascript"/>
+<item id="jsD3" href="data_3.js" media-type="text/javascript"/>
+<item id="jsD4" href="data_4.js" media-type="text/javascript"/>
+<item id="jsD5" href="data_5.js" media-type="text/javascript"/>
+<item id="jsD6" href="data_6.js" media-type="text/javascript"/>
+<item id="jsD7" href="data_7.js" media-type="text/javascript"/>
+<item id="jsD8" href="data_8.js" media-type="text/javascript"/>
+<item id="jsD9" href="data_9.js" media-type="text/javascript"/>
+<item id="jsD10" href="data_10.js" media-type="text/javascript"/>
+<item id="jsD11" href="data_11.js" media-type="text/javascript"/>
+<item id="jsD12" href="data_12.js" media-type="text/javascript"/>
+<item id="jsD13" href="data_13.js" media-type="text/javascript"/>
+<item id="jsD14" href="data_14.js" media-type="text/javascript"/>
+<item id="jsD15" href="data_15.js" media-type="text/javascript"/>
+<item id="jsD16" href="data_16.js" media-type="text/javascript"/>
+<item id="jsD17" href="data_17.js" media-type="text/javascript"/>
+<item id="jsD18" href="data_18.js" media-type="text/javascript"/>
+<item id="jsD19" href="data_19.js" media-type="text/javascript"/>
+<item id="css1" href="css/bxPageTransition.css" media-type="text/css"/>
+<item id="page1" href="index_01.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+<item id="page2" href="index_02.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+<item id="page3" href="index_03.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+<item id="page4" href="index_04.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+<item id="page5" href="index_05.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+<item id="page6" href="index_06.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+<item id="page7" href="index_07.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+<item id="page8" href="index_08.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+<item id="page9" href="index_09.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+<item id="page10" href="index_10.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+<item id="page11" href="index_11.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+<item id="page12" href="index_12.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+<item id="page13" href="index_13.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+<item id="page14" href="index_14.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+<item id="page15" href="index_15.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+<item id="page16" href="index_16.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+<item id="page17" href="index_17.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+<item id="page18" href="index_18.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+<item id="page19" href="index_19.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+<item id="page20" href="index_20.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+<item id="a1" href="asset/I/95045c9fb51d4c34acaee1ab16684ea9.jpg" media-type="image/jpeg"/>
+<item id="a2" href="asset/I/afa4d5a71bcc4c14ae6a48709422afd6.jpg" media-type="image/jpeg"/>
+<item id="a3" href="asset/I/6b389b718dae4832a014b659da2f2ced.jpg" media-type="image/jpeg"/>
+<item id="a4" href="asset/I/da6b4f9b370949ca96f643771747ce4b.jpg" media-type="image/jpeg"/>
+<item id="a5" href="asset/I/a9533012e1134737b0fc39b116e1914f.jpg" media-type="image/jpeg"/>
+<item id="a6" href="asset/I/51689f6443714aeabd4898fbb927b7e7.jpg" media-type="image/jpeg"/>
+<item id="a7" href="asset/I/05ee412b6f0543c6bd48f1d573b121c6.jpg" media-type="image/jpeg"/>
+<item id="a8" href="asset/I/b371605d1cac42f6a7ee558c43285dac.jpg" media-type="image/jpeg"/>
+<item id="a9" href="asset/I/db06a5e0d45543efbb862a3e3ccc5d6f.jpg" media-type="image/jpeg"/>
+<item id="a10" href="asset/I/60bb7b238dcc4c99b288ef472ff15d24.jpg" media-type="image/jpeg"/>
+<item id="a11" href="asset/I/b1d5883809004bc0a859f0e4a8ebf6cf.jpg" media-type="image/jpeg"/>
+<item id="a12" href="asset/I/af430db88db64d2984af5fdae7cd0de9.jpg" media-type="image/jpeg"/>
+<item id="a13" href="asset/I/89d7c9a3fb924b468396949442547657.jpg" media-type="image/jpeg"/>
+<item id="a14" href="asset/I/47bc6a12dad1463497fd297e38cbec4c.jpg" media-type="image/jpeg"/>
+<item id="a15" href="asset/I/83699ca730d24dba8a1a521eb5c8bc52.jpg" media-type="image/jpeg"/>
+<item id="a16" href="asset/I/6e06e77a21e54a7791f31f9bed005adc.jpg" media-type="image/jpeg"/>
+<item id="a17" href="asset/I/b024b194337e4ad28ccb88517524b038.jpg" media-type="image/jpeg"/>
+<item id="a18" href="asset/I/8c8bf08f142443dba9f1de0ff52ef134.jpg" media-type="image/jpeg"/>
+<item id="a19" href="asset/I/2944d9c3d976426a90e674e156d082cb.jpg" media-type="image/jpeg"/>
+<item id="a20" href="asset/I/35f6be3086fa43a4b39a3f77fc17fc2c.jpg" media-type="image/jpeg"/>
+<item id="f1" href="fonts/OpenSans/font.css" media-type="text/css"/>
+<item id="f1_1" href="fonts/OpenSans/OpenSans-Regular.woff" media-type="application/font-woff"/>
+<item id="f1_2" href="fonts/OpenSans/OpenSans-Bold.woff" media-type="application/font-woff"/>
+<item id="f1_3" href="fonts/OpenSans/LICENSE.txt" media-type="text/plain"/>
+<item id="f2" href="fonts/NanumGothic/font.css" media-type="text/css"/>
+<item id="f2_1" href="fonts/NanumGothic/NanumGothic-Regular.woff" media-type="application/font-woff"/>
+<item id="f2_2" href="fonts/NanumGothic/NanumGothic-Bold.woff" media-type="application/font-woff"/>
+<item id="f3" href="fonts/NanumGothicEB/font.css" media-type="text/css"/>
+<item id="f3_1" href="fonts/NanumGothicEB/NanumGothic-ExtraBold.woff" media-type="application/font-woff"/>
+<item id="f3_2" href="fonts/NanumGothicEB/OFL.txt" media-type="text/plain"/>
+<item id="f4" href="fonts/NanumMyeongjo/font.css" media-type="text/css"/>
+<item id="f4_1" href="fonts/NanumMyeongjo/NanumMyeongjo-Regular.woff" media-type="application/font-woff"/>
+<item id="f4_2" href="fonts/NanumMyeongjo/NanumMyeongjo-Bold.woff" media-type="application/font-woff"/>
+<item id="f5" href="fonts/NanumSquare/font.css" media-type="text/css"/>
+<item id="f5_1" href="fonts/NanumSquare/NanumSquare-Regular.woff" media-type="application/font-woff"/>
+<item id="f5_2" href="fonts/NanumSquare/NanumSquare-Bold.woff" media-type="application/font-woff"/>
+<item id="f5_3" href="fonts/NanumSquare/OFL.txt" media-type="text/plain"/>
+<item id="f6" href="fonts/NanumSquareEB/font.css" media-type="text/css"/>
+<item id="f6_1" href="fonts/NanumSquareEB/NanumSquare-ExtraBold.woff" media-type="application/font-woff"/>
+<item id="f6_2" href="fonts/NanumSquareEB/OFL.txt" media-type="text/plain"/>
+<item id="f7" href="fonts/NanumPen/font.css" media-type="text/css"/>
+<item id="f7_1" href="fonts/NanumPen/NanumPen-Regular.woff" media-type="application/font-woff"/>
+<item id="f8" href="fonts/SangSangAnt/font.css" media-type="text/css"/>
+<item id="f8_1" href="fonts/SangSangAnt/SangSangAnt.woff" media-type="application/font-woff"/>
+<item id="f8_2" href="fonts/SangSangAnt/LICENSE.txt" media-type="text/plain"/>
+<item id="f9" href="fonts/KoPubBatang/font.css" media-type="text/css"/>
+<item id="f9_1" href="fonts/KoPubBatang/KoPubBatang-Regular.woff" media-type="application/font-woff"/>
+<item id="f9_2" href="fonts/KoPubBatang/KoPubBatang-Bold.woff" media-type="application/font-woff"/>
+</manifest>
+<spine page-progression-direction="ltr">
+	<itemref idref="page1" properties="rendition:spread-none rendition:orientation-landscape"/>
+<itemref idref="page2" properties="rendition:spread-none rendition:orientation-landscape"/>
+<itemref idref="page3" properties="rendition:spread-none rendition:orientation-landscape"/>
+<itemref idref="page4" properties="rendition:spread-none rendition:orientation-landscape"/>
+<itemref idref="page5" properties="rendition:spread-none rendition:orientation-landscape"/>
+<itemref idref="page6" properties="rendition:spread-none rendition:orientation-landscape"/>
+<itemref idref="page7" properties="rendition:spread-none rendition:orientation-landscape"/>
+<itemref idref="page8" properties="rendition:spread-none rendition:orientation-landscape"/>
+<itemref idref="page9" properties="rendition:spread-none rendition:orientation-landscape"/>
+<itemref idref="page10" properties="rendition:spread-none rendition:orientation-landscape"/>
+<itemref idref="page11" properties="rendition:spread-none rendition:orientation-landscape"/>
+<itemref idref="page12" properties="rendition:spread-none rendition:orientation-landscape"/>
+<itemref idref="page13" properties="rendition:spread-none rendition:orientation-landscape"/>
+<itemref idref="page14" properties="rendition:spread-none rendition:orientation-landscape"/>
+<itemref idref="page15" properties="rendition:spread-none rendition:orientation-landscape"/>
+<itemref idref="page16" properties="rendition:spread-none rendition:orientation-landscape"/>
+<itemref idref="page17" properties="rendition:spread-none rendition:orientation-landscape"/>
+<itemref idref="page18" properties="rendition:spread-none rendition:orientation-landscape"/>
+<itemref idref="page19" properties="rendition:spread-none rendition:orientation-landscape"/>
+<itemref idref="page20" properties="rendition:spread-none rendition:orientation-landscape"/>
+</spine>
+</package>

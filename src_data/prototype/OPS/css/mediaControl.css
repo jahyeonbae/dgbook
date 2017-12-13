@@ -1,0 +1,373 @@
+@charset "utf-8";
+
+/****************************************
+*		    mediaControls.css           *
+****************************************/
+
+.pageMovie.fullScreen {
+	top: 50px;
+	left: 0;
+	width: 1120px;
+	height: 700px;
+	background: #000;
+	border-radius: 0;
+}
+
+.fullScreenBtn {
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	/*background: url(../../images/9/common/fullScreenBtn.png) no-repeat;*/
+	background-size: 40px;
+	cursor: pointer;
+	z-index: 1;
+}
+.zoomOutBtn {
+	position: absolute;
+	top: 660px;
+	left: 1064px;
+	width: 40px;
+	height: 40px;
+	/*background: url(../../images/9/common/zoomOutBtn.png) no-repeat;*/
+	background-size: 40px;
+	cursor: pointer;
+	z-index: 1;
+}
+
+
+
+.videoWrap .videoContainer {
+	position: absolute;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	background-color: #000;
+}
+.videoWrap .videoControls {
+	position: absolute;
+	bottom: -50px;
+	left: 0px;
+	width: 100%;
+	height: 50px;
+}
+
+.videoWrap .controlsbg {
+	position: absolute;
+	bottom: -50px;
+	width: 100%;
+	height: 55px;
+
+	background: -moz-linear-gradient(to bottom, #262626 15%, #000000 60%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(15%,#262626), color-stop(60%,#000000));
+	background: -webkit-linear-gradient(to bottom, #262626 15%, #000000 60%);
+	background: -o-linear-gradient(to bottom, #262626 15%, #000000 60%);
+	background: -ms-linear-gradient(to bottom, #262626 15%, #000000 60%);
+	background: linear-gradient(to bottom, #262626 15%, #000000 60%);
+	opacity: 0.4;
+}
+
+
+.videoWrap video {
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+}
+.videoWrap .thumImg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+
+
+.videoControls ul {
+	display: table-cell;
+}
+
+.controls {
+	position: absolute;
+	cursor: pointer;
+	z-index: 100;
+}
+
+#play {
+	top: 21px;
+	left: 15px;
+}
+#stop {
+	top: 22px;
+	left: 50px;
+}
+
+.time {
+	position: absolute;
+	top: 23px;
+	left: 85px;
+	width: 150px;
+	font-size: 14px;
+	color: #989898;
+	letter-spacing: 1px;
+}
+
+#curtime {
+	color: #33BAFF !important;
+}
+#durtime {
+	color: #fff !important;
+}
+
+
+#playBar {
+	position: absolute;
+	border-radius: 12px;
+	background: transparent;
+	top: -14px;
+	left: 10px;
+    height: 40px;
+}
+
+#playVolume {
+	position: absolute;
+	border-radius: 12px;
+	background: transparent;
+	top: -4px;
+	left: 190px;
+	width: 130px;
+	height: 28px;
+	/*outline: 2px solid red;*/
+}
+
+
+.vcaption {
+	position: absolute;
+	top: 20px;
+	right: 105px;
+	z-index: 1000;
+	cursor: pointer;
+	font-size: 13px;
+	text-align: center;
+
+	color: #fff;
+	width: 85px;
+	padding: 5px 0;
+	border: 1px solid #fff;
+	border-radius: 5px;
+}
+
+.fullsize {
+	position: absolute;
+	top: 20px;
+	right: 15px;
+	z-index: 1000;
+	cursor: pointer;
+	text-align: center;
+	color: #fff;
+	width: 75px;
+	padding: 5px 0;
+	font-size: 13px;
+	border: 1px solid #fff;
+	border-radius: 5px;
+}
+
+
+.fullsizeMod_videoWrap {
+	left: 435px;
+}
+.fullsizeMod_ani {
+	left: 335px;
+}
+
+
+.fullMod_videoWrap {
+	top: 0 !important;
+	width: 100% !important;
+    height: 100% !important;
+	z-index: 500;
+}
+
+.fullMod_videoControls {
+	width: 100% !important;
+}
+
+
+.pageMovPlayBtn {
+	position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: justify;
+
+	width: 70px;
+	height: 70px;
+	background: url(../images/common/controls/pageMovPlayBtn.png) no-repeat;
+	background-size: 70px 70px;
+	z-index: 1000;
+	opacity: 1;
+	cursor: pointer;
+}
+.pageMovPlayBtn:hover {
+	z-index: 1000;
+	opacity: 0.8;
+}
+
+
+.fullPlay_videoWrap {
+	position: absolute;
+    top: 255px;
+    left: 500px;
+
+	width: 150px;
+	height: 150px;
+	background: url(../images/common/controls/pageMovPlayBtn.png) no-repeat;
+	background-size: 150px 150px;
+	z-index: 1000;
+	opacity: 0.8;
+
+	pointer-events: auto;
+	cursor: pointer;
+}
+.fullPlay_videoWrap:hover {
+	z-index: 1000;
+	opacity: 1;
+}
+
+
+.playMod {
+    position: absolute;
+    top: 0 !important;
+    bottom: 0;
+    left: 0 !important;
+    right: 0;
+    margin: auto;
+    text-align: justify;
+}
+
+
+.captionBox {
+	position: absolute;
+	bottom: -100px;
+	width: 100%;
+	height: 45px;
+	visibility: hidden;
+}
+
+.captionbg {
+	width: 100%;
+	height: 100%;
+	background: #fff;
+	opacity: 0.3;
+	/*outline: 2px solid red;*/
+}
+.captionTxt {
+	position: absolute;
+	bottom: 7px;
+	width: 94.5%;
+	height: 20px;
+	padding: 7px 15px;
+	text-align: left;
+    line-height:25px;
+	color: #000;
+	font-size: 20px;
+	font-family: NanumGothicB;
+
+	text-shadow: 0 2px 1px #fff;
+	text-align: justify;
+}
+
+
+
+/* chrome, safari, opera */
+input[type=range] {
+  	-webkit-appearance: none;
+    cursor: pointer;
+  	/*width: 573px;*/
+  	width: 96%;
+	height: 15px;
+	padding: 0;
+}
+input[type=range]:focus {
+    outline: none;
+    border: none;
+    /*border-radius: 13px;*/
+}
+input[type=range]::-webkit-slider-runnable-track {
+    border-color: transparent;
+	color: transparent;
+	border: none;
+    background: #fffdfe;
+    height: 5px;
+    border-radius: 10px;
+}
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: none;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background: #ea3e19;
+    margin-top: -4px;
+    z-index: 1000;
+}
+input[type=range]:focus {
+    outline: none;
+}
+
+
+
+
+/* internet explorer 10 + */
+input[type=range]::-ms-track {
+    background: transparent;
+    border-color: transparent;
+    border-width: 6px 0;
+    color: transparent;
+    /*width: 590px;*/
+    width: 100%;
+    height: 10px;
+    /*border-radius: 10px;*/
+}
+
+input[type=range]::-ms-fill-lower {
+    background: #ea3e19;
+    height: 5px;
+    border-radius: 10px;
+}
+input[type=range]::-ms-fill-upper {
+	background: #fffdfe;
+    height: 5px;
+    border-radius: 10px;
+}
+input[type=range]::-ms-thumb {
+    border: none;
+  	width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background: #ea3e19;
+    z-index: 1000;
+}
+
+
+
+
+
+
+
+
+
+/*video::-webkit-media-controls-fullscreen-button {
+	z-index: 2000;
+	opacity: 1;
+}*/
+
+.vdotest:-ms-fullscreen  {
+	width: auto;
+	height: auto;
+	margin: auto;
+	z-index: 2000;
+	opacity: 1;
+}

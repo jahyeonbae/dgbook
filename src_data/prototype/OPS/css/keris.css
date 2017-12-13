@@ -1,0 +1,761 @@
+vcaption, legend {display: none;}
+
+input[type="checkbox"], input[type="radio"] {
+	background: none;
+	border: none;
+	cursor: pointer;
+}
+b,strong {font-weight: bold;}
+button {
+	margin: 0;
+	padding: 0;
+	border: none;
+	outline: none;
+	background: none;
+}
+
+.hide{
+	display : none !important
+}
+
+.quiz_contents{position:relative;}
+.option_list{margin-top:20px;}
+.option_list li {
+	font-size: 15px;
+	margin-bottom:10px;
+	height:40px;
+	cursor : pointer;
+	position:relative;
+}
+.option_list li span:first-child{
+    display: inline-block;
+    width: 16px;
+    line-height: 15px;
+    height: 16px;
+    top: 1px;
+    margin-right: 10px;
+    border-radius: 50%;
+    border: 1px solid #000;
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+}
+.option_list li.check_on p {
+	font-weight : 600;
+}
+.option_list li p {
+	display : inline-block;
+	font-size:14px;
+	vertical-align:middle;
+	margin-right:20px;
+	line-height:1.8
+}
+/*
+.option_list li img {
+	vertical-align:middle;
+	position:absolute;
+	left:-6px;
+	top:-15px;
+	display : none;
+}
+.option_list li.check_on img, .option_list li.answer img  {
+	display:block;
+}
+*/
+.option_list li.check_on:before{
+	display : block;
+	content:"";
+	width:35px;
+	height:35px;
+
+	background:url(../images/pop-common/check.png) no-repeat;
+	background-size:35px 35px;
+	position:absolute;
+	top:-13px;
+	left:-2px;
+}
+.option_list li.answer:after{
+	display : block;
+	content:"";
+	width:40px;
+	height:40px;
+	background:url(../images/common/check_answer.png) no-repeat;
+	position:absolute;
+	top:-3px;
+	left:-9px;
+}
+.option_list li.answer img {
+	top:0px;
+}
+.option_list li.answer p {
+	color:#C63E1F;
+	font-weight:bold;
+
+}
+button.hint, button.answer_check {
+    display: inline-block;
+    font-size: 18px;
+    height: 40px;
+    width: 125px;
+    padding: 3px 0;
+    margin: 0 0 0px 0;
+    background: #fff;
+    border: 1px solid #ADADAD;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 10px;
+    float: right;
+}
+
+.hint_layer {
+	width: 280px;
+	padding: 20px 20px;
+	color: #75a1d1;
+	font-size: 16px;
+	line-height: 22px;
+	background: #fff;
+	border-radius: 10px;
+	box-shadow: 1px 1px 1px 2px #D0D0D0;
+	/*position:absolute;
+	top:0px;
+	left:300px;
+	*/
+	margin-top:10px;
+	display:none;
+}
+.t_f_content .hint_layer{
+	left:430px;
+}
+
+.text_content .hint_layer {
+	left:540px;
+}
+.hint_layer.show_hint {
+	display:block;
+}
+.true_false_layer .true_button, .true_false_layer .false_button {
+	font-size: 15px;
+	height: 40px;overflow: visible;
+	width:40px;
+	box-sizing: border-box;
+	background: #fff;
+	box-shadow: 1px 1px 2px #666;
+	position:relative;
+	margin:0 5px;
+}
+.true_false_layer .check_on:before{
+	display : block;
+	content:"";
+	width:53px;
+	height:45px;
+	background:url(../images/pop-common/check.png) no-repeat;
+	position:absolute;
+	top:-6px;
+	left:0px;
+}
+.true_false_layer .answer:after{
+    display: block;
+    content: "";
+    width: 35px;
+    height: 35px;
+    background: url(../images/common/check_answer.png) no-repeat;
+    position: absolute;
+    background-size: contain;
+    top: 2px;
+    left: -3px;
+}
+.text_content{
+	/*border-bottom:1px solid #9e9e9e;*/
+}
+.text_content >div:first-child {
+	/*height:80px;*/
+}
+.text_content .text_quiz_input {
+	height:30px;
+	width:500px;
+	padding-left:10px;
+	font-size:18px;
+}
+.text_content .answer_area{
+	padding:4px 10px;
+}
+.text_content .answer_area *{
+	display : inline-block;
+	vertical-align : underline;
+	color : #177cd5;
+	font-size:16px;
+}
+
+.video_content, .roleplay_content {
+	width:600px;
+	position: relative;
+	padding:0;
+	background:pink;
+	font-size:0;
+}
+.video_content.fullmode {
+	position:absolute;
+	z-index:1;
+	width:100%;
+	top:0px;
+	left:0px;
+}
+.video_content video, .roleplay_content video{
+	width:100%;
+}
+.video_content  .video_control_wrap, .roleplay_content  .video_control_wrap{
+	position:absolute;
+	bottom:-52px;
+	left:4px;
+	width:99%;
+	background:rgba(0,0,0,0.4);
+}
+.video_content .video_playbar, .roleplay_content .video_playbar  {
+	text-align:center;
+	font-size:0;
+	width:100%;
+	padding:2px 0 ;
+}
+.video_content .vcaption_area, .roleplay_content .vcaption_area {
+	font-size:16px;
+	color:#fff;
+	text-align:center;
+	padding:10px 0;
+	display : none;
+}
+.video_content .vcaption_on .vcaption_area, .roleplay_content.vcaption_on .vcaption_area{
+	display:block;
+}
+
+
+
+/*
+.video_content input[type=range]{
+	-webkit-appearance: none;
+ 	width: 580px;
+	background: transparent;
+	margin:0;
+	padding:0;
+}
+.video_content input[type=range]:focus {
+  outline: none;
+}
+ .video_content input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+}
+
+ .video_content input[type=range] {
+  	-webkit-appearance: none;
+    cursor: pointer;
+
+  	width: 96%;
+	height: 15px;
+	padding: 0;
+}
+.video_content input[type=range]:focus {
+    outline: none;
+    border: none;
+
+}
+.video_content input[type=range]::-webkit-slider-runnable-track {
+    border-color: transparent;
+	color: transparent;
+	border: none;
+    background: #fffdfe;
+    height: 5px;
+    border-radius: 10px;
+}
+.video_content input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: none;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background: #ea3e19;
+    margin-top: -4px;
+    z-index: 1000;
+}
+.video_content input[type=range]:focus {
+    outline: none;
+}
+.video_content input[type=range]::-ms-track {
+    background: transparent;
+    border-color: transparent;
+    border-width: 6px 0;
+    color: transparent;
+
+    width: 100%;
+    height: 15px;
+    border-radius: 10px;
+}
+.video_content input[type=range]::-ms-fill-lower {
+    background: #ea3e19;
+    height: 5px;
+    border-radius: 10px;
+}
+.video_content input[type=range]::-ms-fill-upper {
+	background: #fffdfe;
+    height: 5px;
+    border-radius: 10px;
+}
+.video_content input[type=range]::-ms-thumb {
+    border: none;
+  	width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background: #ea3e19;
+    z-index: 1000;
+}
+
+*/
+
+/* chrome, safari, opera */
+input[type=range] {
+  	-webkit-appearance: none;
+    cursor: pointer;
+  	/*width: 573px;*/
+  	width: 96%;
+	height: 15px;
+	padding: 0;
+}
+input[type=range]:focus {
+    outline: none;
+    border: none;
+    /*border-radius: 13px;*/
+}
+input[type=range]::-webkit-slider-runnable-track {
+    border-color: transparent;
+	color: transparent;
+	border: none;
+    background: #fffdfe;
+    height: 5px;
+    border-radius: 10px;
+}
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: none;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background: #ea3e19;
+    margin-top: -4px;
+    z-index: 1000;
+}
+input[type=range]:focus {
+    outline: none;
+}
+
+
+
+/* internet explorer 10 + */
+input[type=range]::-ms-track {
+    background: transparent;
+    border-color: transparent;
+    border-width: 6px 0;
+    color: transparent;
+    /*width: 590px;*/
+    width: 100%;
+    height: 15px;
+    border-radius: 10px;
+}
+input[type=range]::-ms-fill-lower {
+    background: #ea3e19;
+    height: 5px;
+    border-radius: 10px;
+}
+input[type=range]::-ms-fill-upper {
+	background: #fffdfe;
+    height: 5px;
+    border-radius: 10px;
+}
+input[type=range]::-ms-thumb {
+    border: none;
+  	width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background: #ea3e19;
+    z-index: 1000;
+}
+
+
+
+.video_content .vclose{position:absolute;top:0;right:0;cursor: pointer;}
+#vwrap .vclose{position:absolute;top:0;right:0;cursor: pointer;}
+/*/////////////////////////////////////////////////////////////////////////////////////////*/
+
+.video_content .video_controller, .roleplay_content .video_controller {
+	font-size:13px;
+	width:100%;
+	padding:0px 0 8px 8px;
+	box-sizing : border-box;
+}
+.video_content .video_controller >* {
+	vertical-align:middle;
+	display:inline-block;
+}
+.video_content .play_pause_button.play, .roleplay_content .play_pause_button.play {
+	width:38px;
+	height:23px;
+	font-size:0;
+	background:url(../images/common/btnPlay.png) no-repeat center ;
+	vertical-align:middle;
+
+}
+.video_content .play_pause_button.pause,.roleplay_content .play_pause_button.pause {
+	width:24px;
+	height:23px;
+	font-size:0;
+
+	background:url(../images/common/btnPause.png) no-repeat center ;
+}
+.video_content .stop_button, .roleplay_content .stop_button {
+	width:24px;
+	height:23px;
+	font-size:0;
+	background:url(../images/common/btnStop.png) no-repeat center ;
+	vertical-align:middle;
+}
+.video_content .runtime, .roleplay_content .runtime{
+	display:inline-block;
+	height:25px;
+	padding : 0 10px;
+}
+.video_content .runtime span, .roleplay_content .runtime span {
+	color:#fff;
+	font-size:14px;
+	vertical-align:middle;
+	display:inline-block;
+	height:100%;
+	line-height:1.8
+}
+.video_content .runtime span:first-child, .roleplay_content .runtime span:first-child {
+	color:#33BAFF;
+
+}
+.video_content select {
+	border-radius:3px;
+	height:24px;
+	border:0;
+}
+.video_content .play_time_control input{
+	width:40px;
+	height:24px;
+	border-radius:3px;
+	border:0;
+	display:inline-block;
+	padding-top:6px;
+	box-sizing : border-box;
+	text-align:center;
+
+}
+
+/*.video_content .vcaption{bottom:10px;right:10px;}*/
+.video_content .time_play, .video_content .vcaption ,
+.video_content .fullscreen, .video_content .replay,
+.roleplay_content .vcaption , .roleplay_content .language,.set_part {
+
+	border:1px solid #fff;
+	border-radius:4px;
+	font-size:13px;
+	color:#fff;
+	padding:3px 6px;
+}
+ .video_content .replay.replay_on,  .video_content .time_play.time_play_on{
+ 	color : #33BAFF;
+ 	border-color : #33BAFF;
+ }
+.scroll_content .vcaption_area {
+	position:relative;
+	width:480px;
+	height:550px;
+	overflow : hidden;
+	background:#fff;
+}
+.scroll_content .vcaption{
+	background:#fff;
+	width : 480px;
+	position:absolute;
+	top:0px;
+	left:0px;
+
+
+}
+.scroll_content .vcaption p{
+	padding-bottom:8px;
+	min-height:70px;
+	box-sizing:border-box;
+}
+.scroll_content .vcaption p.vcaption_on {
+	color:red;
+}
+.scroll_content .scrollbar {
+	width:8px;
+	height:550px;
+	background:#eee;
+	position:absolute;
+	top:20px;
+	right:10px;
+}
+.scroll_content .scrollbar button.scroll_range{
+	width:14px;
+	height:14px;
+	background:blue;
+	font-size:0;
+	position:absolute;
+	top:0px;
+	left:-2px;
+}
+.scroll_content {
+
+	position:relative;
+	width:510px;
+}
+
+.scroll_content .scroll_range{
+	-ms-transform: rotate(-270deg);
+    -webkit-transform: rotate(-270deg);
+    transform: rotate(-270deg);
+    position:absolute;
+    top:286px;
+    left:230px;
+    width:550px;
+}
+.roleplay_content{
+	padding:14px;
+	background:#000;
+}
+.roleplay_content .my_part {
+	position:absolute;
+	top:0px;
+	right:0px;
+	background:rgba(0,0,0,0.2);
+}
+
+.roleplay_content .my_part li {
+	display : inline-block;
+	background:red;
+	border-radius : 50%;
+	font-size:0;
+	border:4px solid #ccc;
+	margin-left:4px;
+}
+.roleplay_content .my_part li.on {
+	border:4px solid #a2c3e3;
+}
+.roleplay_content .my_part img{
+	width:50px;
+	height:50px;
+}
+
+
+.roleplay_content .part_select{
+	width:610px;
+	position:absolute;
+	top:8px;
+	left:10px;
+	background:#eee;
+	border-radius:10px;
+	padding:40px 0 0 0px;
+	box-sizing:border-box;
+	height:348px;
+}
+.roleplay_content .part_select.hide{
+	display : none;
+}
+.roleplay_content .part_select.show{
+	display : block;
+}
+.roleplay_content .part_select ul  li {
+	display:inline-block;
+	width:299px;
+	text-align:center;
+}
+.roleplay_content .part_select ul  li div {
+	text-align:center;
+	display:inline-block;
+	cursor : pointer;
+}
+.roleplay_content .part_select ul  li img {
+	display : block;
+	margin:0 auto 10px;
+
+}
+.roleplay_content .part_select ul  li span {
+	font-size:17px;
+	position:relative;
+	display:inline-block;
+	padding-left:20px;
+}
+.roleplay_content .part_select ul  li span:before{
+	display : block;
+	content : "";
+	width:14px;
+	height:14px;
+	border:1px solid;
+	border-radius:50%;
+	position:absolute;
+	top:4px;
+	left:0px;
+}
+.roleplay_content .part_select ul  li span:after{
+	display : none;
+	content : "";
+	width:8px;
+	height:8px;
+	background:#000;
+	border-radius:50%;
+	position:absolute;
+	top:8px;
+	left:4px;
+}
+.roleplay_content .part_select ul  li.select_this span:after {
+	display : block;
+}
+
+.roleplay_content .part_select .role_play_start, .roleplay_content .part_select .part_select_close{
+	font-size:16px;
+	background:#ddd;
+	padding:10px 0px;
+	width:180px;
+	border-radius:8px;
+}
+.part_select_button{
+	text-align:center;
+	margin-top:40px;
+}
+.roleplay_content .part_select .role_play_start {
+	margin-right:30px;
+}
+.roleplay_content .sound_area{
+	display : inline-block;
+	vertical-align : middle;
+	margin-left:6px;
+}
+.roleplay_content .sound_area .mute_button {
+	width:25px;
+	height:25px;
+	font-size:0;
+	vertical-align:middle;
+	background:url(../images/common/control_volumeBtn.png) no-repeat center;
+}
+.roleplay_content .sound_area .mute_button.mute_on {
+	background:url(../images/common/control_volumeMuteBtn.png) no-repeat center;
+}
+.roleplay_content .sound_area .volume_bar {
+	display : inline-block;
+	vertical-align:middle;
+}
+.roleplay_content  .runtime {
+	margin-right:140px;
+}
+
+
+/*선 긋기*/
+
+#contents {
+	position: relative;
+	/*
+	top: 60px;
+	width: 570px;
+	height: auto;
+	margin: 0 auto;
+	*/
+}
+
+#contentsBox {
+	background-color: transparent;
+}
+
+/*
+.questionTextWrap	{
+	text-align: center;
+	float: left;
+}
+.questionTextWrap li {
+	width: 250px;
+	height: 80px;
+	margin-top: 36px;
+	line-height: 80px;
+	padding-left: 10px;
+	font-size: 24px;
+}
+.questionTextWrap li > span:first-child	{
+	display: inline-block;
+	width: 54px;
+}
+.questionTextWrap li > span:last-child {
+	display: inline-block;
+	text-align: center;
+	width: 150px;
+}
+.questionTextWrap li:first-child {
+	margin-top: 17px;
+}
+*/
+
+.dot {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background: #bdbdbd;
+	z-index:2;
+}
+.dot .hold {
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	padding: 10px 10px;
+	border-radius: 50%;
+	background: #fff;
+
+}
+.dot .ans {
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	padding: 10px 10px;
+	border-radius: 50%;
+	background: #000;
+}
+
+
+.drawBox {
+	position: absolute;
+	width: 70px;
+	height: 70px;
+	z-index:2;
+}
+
+.contentContainer {
+	height: 500px;
+	z-index: 1000;
+}
+
+/* dragLine */
+.svgContainer {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+}
+.svgContainer path {
+	stroke: #000;
+	stroke-width: 6px;
+}
+.dropBox {
+	position: absolute;
+	width: 70px;
+	height: 70px;
+}
+.answer_cancel{
+	position: absolute;
+	bottom:-70px;
+	right:0;
+	box-shadow: none;
+    border: 0;
+}

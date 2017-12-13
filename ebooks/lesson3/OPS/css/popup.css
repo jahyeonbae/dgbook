@@ -1,0 +1,76 @@
+
+ .popup-text-wrap{
+   position: absolute;
+   z-index: 999999999;
+   top: 50px;
+   left: 50%;
+   width: 666px;
+   margin-left: -333px;
+  /* height: 100%; */
+  overflow: hidden;
+  border-radius: 30px;
+  box-shadow: 0 2px 6px #b5b5b5;
+  /* margin: 0 auto; */
+  background-color:#FFF;
+}
+
+.popup_close {
+  cursor: pointer;
+}
+
+.popup-text-wrap .top{
+  background-color: #fdd303;
+  /*border: 1px #000 solid;*/
+  width: 666px;
+  height: 79px;
+  position: relative;
+  /*border-radius: 30px;*/
+}
+
+.popup-text-wrap .top span{
+  width: 100px;
+  height: 50px;
+}
+.popup-text-wrap .top img{
+  /* padding-top: 21px; */
+  width: 44px; height: 44px;
+  /* position: absolute; */
+  /* right: 40px; */
+  /* bottom: 20px; */
+}
+.popup-text-wrap .text{
+  position: relative;
+  top: 25px;
+  left: 40px;
+}
+.popup-text-wrap .text i{
+  font-size: 40px;
+}
+.popup-text-wrap .text span{
+  /*position: relative;
+  top:-10px;*/
+  margin: 22px 0 0 16px;
+  font-size: 20px;
+  font-family: 'Nanum Gothic-Extra';
+}
+.popup-text-content{
+  padding: 40px;
+}
+.popup-text-content div{
+  font-size: 14px;
+  /*position: relative;
+  top:-15px;*/
+}
+.popup-text-content div ul:first-child{
+  text-indent: 14px;
+  /*padding-top: 5px;*/
+}
+.popup-text-content h4{
+  padding: 7px 0;
+}
+.popup-text-content li ul li ul:first-child{
+  padding-left: 14px;
+}
+.popup-text-content>ul>li{
+  margin-bottom:10px;
+}
